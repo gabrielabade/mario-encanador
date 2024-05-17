@@ -64,7 +64,7 @@ video {
   height: 100vh;
   width: 100vw;
   background: linear-gradient(
-    109deg,
+  109deg,
     rgba(10, 12, 16, 0.99) 15%,
     rgba(10, 12, 16, 0.7) 50%,
     rgba(10, 12, 16, 0.99) 85%
@@ -72,6 +72,7 @@ video {
   position: fixed;
   top: 0;
 }
+
 
 .link-whatsapp img {
   height: 3.75rem;
@@ -114,6 +115,20 @@ video {
   padding: 1.25rem;
   border-radius: 0.5rem;
 }
+.mascara-formulario {
+  visibility: hidden;
+  transition: visibility 1s linear;
+  z-index: 3;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+    109deg,
+    rgba(10, 12, 16, 0.99) 15%,
+    rgba(10, 12, 16, 0.7) 50%,
+    rgba(10, 12, 16, 0.99) 85%
+  );
+}
 
 input {
   height: 2.5rem;
@@ -130,15 +145,4 @@ textarea {
   border: 1px solid gray;
   padding-left: 0.3rem;
   outline-color: #18d80f;
-}
-.mascara-formulario {
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
-  /* background: linear-gradient(
-    109deg,
-    rgba(10, 12, 16, 0.99) 15%,
-    rgba(10, 12, 16, 0.7) 50%,
-    rgba(10, 12, 16, 0.99) 85%
-  ); */
 }
