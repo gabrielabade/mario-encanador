@@ -1,10 +1,16 @@
-img {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo-header {
   height: 12.5rem;
 }
 
 button {
   color: white;
-  background-color: #C51111;
+  background-color: #c51111;
   border-radius: 3px;
   border: none;
   width: 12.5rem;
@@ -12,4 +18,127 @@ button {
   cursor: pointer;
   text-transform: uppercase;
   font-weight: bold;
+  margin-top: 1.87rem;
+}
+
+button:hover {
+  background: #18d80f;
+  transition: 2s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+.imagem-mario-luigi {
+  height: 31.2rem;
+}
+
+body {
+  height: 100vh;
+}
+
+.caixa-mae {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 6.25rem;
+  height: 100vh;
+  color: white;
+}
+
+.caixa-principal {
+  width: 40%;
+}
+
+.caixa-video {
+  position: fixed;
+  top: 0;
+  z-index: -1;
+}
+
+video {
+  min-height: 100%;
+  min-width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.mascara {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(
+    109deg,
+    rgba(10, 12, 16, 0.99) 15%,
+    rgba(10, 12, 16, 0.7) 50%,
+    rgba(10, 12, 16, 0.99) 85%
+  );
+  position: fixed;
+  top: 0;
+}
+
+.link-whatsapp img {
+  height: 3.75rem;
+  position: fixed;
+  right: 1.25rem;
+  bottom: 1.25rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+  margin: 1.8rem;
+}
+
+.header img {
+  height: 3.75rem;
+}
+
+.header a {
+  color: white;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+.header a:hover {
+  color: #c51111;
+  font-size: 1.8rem;
+  transition: 1s ease-in-out;
+}
+
+.formulario-fale-conosco {
+  background-color: white;
+  display: flex;
+  gap: 1.25rem;
+  flex-direction: column;
+  position: fixed;
+  top: 30%;
+  left: -300px;
+  padding: 1.25rem;
+  border-radius: 0.5rem;
+}
+
+input {
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid gray;
+  padding-left: 0.3rem;
+  outline-color: #18d80f;
+}
+
+textarea {
+  width: 16rem;
+  height: 6.25rem;
+  border-radius: 0.5rem;
+  border: 1px solid gray;
+  padding-left: 0.3rem;
+  outline-color: #18d80f;
+}
+.mascara-formulario {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  /* background: linear-gradient(
+    109deg,
+    rgba(10, 12, 16, 0.99) 15%,
+    rgba(10, 12, 16, 0.7) 50%,
+    rgba(10, 12, 16, 0.99) 85%
+  ); */
 }
