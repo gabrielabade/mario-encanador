@@ -1,0 +1,15 @@
+img {
+  height: 12.5rem;
+}
+
+button {
+  color: white;
+  background-color: #C51111;
+  border-radius: 3px;
+  border: none;
+  width: 12.5rem;
+  height: 3.12rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+}
