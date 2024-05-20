@@ -8,7 +8,7 @@ function showForm() {
 }
 
 function hideForm() {
-  form.style.left = "-330px";
+  form.style.left = "-300px";
   form.style.transform = "translateX(0)";
   background.style.visibility = "hidden";
 }
