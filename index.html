@@ -34,7 +34,8 @@
     </div>
   </div>
 
-  <a href="https://wa.me/5511934534534?text=Quero+falar+com+os+irm%C3%A3os+Mario" class="link-whatsapp">
+  <a id="whatsappLink" href="https://wa.me/5548991056014?text=Quero+falar+com+os+irm%C3%A3os+Mario"
+    class="link-whatsapp">
     <img src="./assets/whatsapp.png" alt="link para o whatsapp">
   </a>
 
@@ -43,11 +44,10 @@
     <div class="mascara"></div>
   </div>
 
-  <form class="formulario-fale-conosco" action="https://formcarry.com/s/Yq9M2bWyeT2" method="POST"
-    enctype="multipart/form-data">
-    <input placeholder="Seu nome" type="text" name="nome">
-    <input placeholder="Seu telefone" type="tel" name="telefone">
-    <textarea placeholder="Digite seu problema aqui" name="duvida"></textarea>
+  <form id="formularioFaleConosco" class="formulario-fale-conosco">
+    <input id="nome" placeholder="Seu nome" type="text" name="nome" required>
+    <input id="telefone" placeholder="Seu telefone" type="tel" name="telefone" required>
+    <textarea id="duvida" placeholder="Digite seu problema aqui" name="duvida" required></textarea>
     <button type="submit">Pedir Orçamento</button>
   </form>
 

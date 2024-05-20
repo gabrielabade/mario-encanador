@@ -12,3 +12,19 @@ function hideForm() {
   form.style.transform = "translateX(0)";
   background.style.visibility = "hidden";
 }
+
+form.addEventListener("submit", function (event) {
+  event.preventDefault();
+
+  const nome = document.getElementById("nome").value;
+  const telefone = document.getElementById("telefone").value;
+  const duvida = document.getElementById("duvida").value;
+
+  const mensagem = `Olá, meu nome é ${nome}. Meu telefone é ${telefone} Minha dúvida é: ${duvida}.`;
+  const mensagemCodificada = encodeURIComponent(mensagem);
+  const whatsappLink = `https://wa.me/5548991056014?text=${mensagemCodificada}`;
+
+  document.getElementById("whatsappLink").href = whatsappLink;
+
+  window.open(whatsappLink, "_blank");
+});
