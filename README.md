@@ -24,4 +24,4 @@ Ao enviar o formulário, os dados são codificados em uma mensagem e o WhatsApp 
 
 ## Visualização
 Aqui está um vídeo demonstrativo do projeto:
-<video src="assets/preview.mp4" autoplay muted loop controls width="600"></video>
+![Demonstração do Projeto](assets/gifpreview.gif)
