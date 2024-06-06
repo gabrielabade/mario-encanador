@@ -23,5 +23,6 @@ Ao enviar o formulário, os dados são codificados em uma mensagem e o WhatsApp 
 - Simular uma aplicação real para melhorar as habilidades de desenvolvimento web.
 
 ## Visualização
+Deploy: https://gabrielabade.github.io/mario-encanador/
 Aqui está um vídeo demonstrativo do projeto:
 ![Demonstração do Projeto](assets/gifpreview.gif)
